@@ -1,0 +1,7 @@
+.newClass {
+    background-color: blue;
+}
+
+input:focus{
+    outline: none;
+}
