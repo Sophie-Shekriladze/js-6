@@ -32,3 +32,21 @@ ul{
     cursor: pointer;
     display: none;
 }
+
+.form-block{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.clearall{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+.ul-item{
+    margin-left: 400px;
+}
+.fa-circle-xmark{
+  color: red;
+  display: none;
+}

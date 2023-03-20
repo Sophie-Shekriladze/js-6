@@ -1,4 +1,12 @@
 @media(max-width: 700px){
+    header{
+        background-image: url(../aesthetic-spring-31.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+
     .navigation{
         display: none;
     }
@@ -9,26 +17,33 @@
         flex-direction: column;
     }
     
-    ul{
+    .ul-list{
         flex-direction: column;
-        top: 10px;
+        top: 100px;
+        text-align: center;
+        width: 150px;
+        height: 300px;
     }
     .navigation.active{
         display: block;
         width: 100px;
         margin: 0 auto;
-        height: 120px;        
+               
     }
 
-    .line.line1{
-        transform: rotate(45deg);
-        transition: 1s;
+    .line.oneLine{
+        transform: rotate(50deg);
+        transition: 1.5s;
+        background-color: blue;
+        right: 30px;
     }
-    .line.line2{
+    .line.twoLine{
+        transform: rotate(-50deg);
+        transition: 1.5s;
+        background-color: blue;
+    }
+    .line.threeLine{
         display: none;
     }
-    .line.line3{
-        transform: rotate(-45deg);
-        transition: 1s;
-    }
+
 }
